@@ -8,3 +8,7 @@ description: 'UEFI Platform Integration Specification, version 1.7 Errata A'
 
 
 
+
+
+
+
