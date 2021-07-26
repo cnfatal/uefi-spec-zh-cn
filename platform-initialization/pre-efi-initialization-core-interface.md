@@ -144,7 +144,7 @@ PI 架构兼容引导的预 EFI 初始化 \(PEI\) 阶段的设计本质上是 PI
 
 下面显示了在 PEI 阶段完成的过程: 
 
-![PEI-operations-diagram](.gitbook/assets/pei-operations-diagram.png)
+![PEI-operations-diagram](../.gitbook/assets/pei-operations-diagram.png)
 
 ### 2.4 PEI Services
 
@@ -2396,7 +2396,7 @@ PEIM 封装允许平台构建者可以使用给定硬件技术的服务，而无
 
 PEIM 二进制映像可以从其在固件卷 \(FV\) 中的位置或从 安装永久内存后将被隐藏的压缩组件。 PEIM 的可执行部分可以是位置相关或位置无关的代码。 如果 PEIM 的可执行部分是位置相关代码，则必须在 PEIM 映像中提供重定位信息，以允许 FV 商店软件将映像重定位到与编译时不同的位置。 图 1-2 描述了 PEIM 的典型布局
 
-![&#x5178;&#x578B; PEIM &#x5E03;&#x5C40;](.gitbook/assets/typical-peim-layout.png)
+![&#x5178;&#x578B; PEIM &#x5E03;&#x5C40;](../.gitbook/assets/typical-peim-layout.png)
 
 #### 7.2.2 重定位信息
 
